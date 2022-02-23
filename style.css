@@ -463,7 +463,11 @@ font-weight: bold;
     scrollbar-width: none;  /* Firefox */
 }
 .img-inner{
-  width: 350px;
+  width: 90vw;
+}
+
+#resize-t-shirt{
+  height: 350px;
 }
 
 .explication-project{
@@ -483,6 +487,10 @@ font-weight: bold;
     }
       
 
+}
+
+.presentation-project{
+  margin-bottom: 60px;
 }
 
 @media all and (min-width: 769) and (max-width: 953){
