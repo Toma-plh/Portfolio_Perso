@@ -1,6 +1,6 @@
 //mettre dans l'ordre des images
 let tabTitleHeader = ['Nuit-au-musée.jpg', 'Tee-shirt-n°1.jpg', 'Tee-shirt-n°2.jpg', 'Composition.jpg','futur-projects.jpg', 'La-Ferme-Dubois.mp4', '@Eslam.mp4', 'Torikara-san.mp4']
-let tabTitle = ['Titre 1er img', 'Green tee-shirt composition', 'Black tee-shirt composition', '3 faces', 'More projects coming soon :)', 'Design/Developement']
+let tabTitle = ['Titre 1er img', 'Green tee-shirt composition', 'Black tee-shirt composition', '3 faces', 'More projects coming soon :)', 'UI / UX / Development', 'UI / UX / Prototype', 'UI / UX / Development']
 let tabDesc = ['Desc 1er img'
 
 , ' "no description" '

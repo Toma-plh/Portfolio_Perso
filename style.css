@@ -84,7 +84,7 @@
 }
 .title{
    /* background-color: salmon;  */
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 0;
     font-weight: 100;
 }
@@ -93,8 +93,7 @@
 .about{
     width: 28%;
     color: #24252A;
-    line-height: 27px;
-    font-size: 1.4em;
+    line-height: 21px;
     }
 
 /* .about:hover{
@@ -517,7 +516,8 @@ font-weight: bold;
  .info{
      font-weight: bold;
      color: #7D8CA3;
- }
+     font-size: 1.2em;
+    }
  .penche{
    color: #7D8CA3;
    font-style: italic;
@@ -542,7 +542,8 @@ font-weight: bold;
  .about{
      width: 28%;
      color: #24252A;
-     line-height: 21px;
+     line-height: 23px;
+     font-size: 1.1em;
      }
  
  
