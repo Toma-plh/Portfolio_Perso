@@ -80,12 +80,16 @@ document.querySelectorAll('.img').forEach(item => {
             
             document.querySelector('.window-project').style.top = item.offsetTop+40 + 'px'
             document.querySelector('.window-project').style.left = item.offsetLeft+100 + 'px'
-            // document.querySelector('.window-post-it').style.top = item.offsetTop+200 + 'px'
-            // document.querySelector('.window-post-it').style.left = item.offsetLeft+500 + 'px'
+            
+            //media screen pour video 
+            var mq = window.matchMedia('all and (min-width: 2001px)');
+            if(mq.matches){
+                document.querySelector('.video-project').style.width = '900px'
+            }else{
+                document.querySelector('.video-project').style.width = '600px'
+            }
 
-            document.querySelector('.video-project').style.width = '600px'
-            // document.querySelector('.window-post-it').style.width = '350px'
-            // document.querySelector('.window-post-it').style.minHeight = '250px'
+          
             
             if ((item.id == '4')){
                 
@@ -258,3 +262,4 @@ function skipVideo() {
     document.querySelector('.window-post-it').style.zIndex = 2
 
 }
+
