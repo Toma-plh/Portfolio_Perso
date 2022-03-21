@@ -246,7 +246,7 @@ top: 30px;
      position: absolute;
       border-radius: 10px;
       /* background-color: hotpink; */
-      height: 500px;
+      
       width: fit-content;
       right: 20px;
       z-index: 2;
@@ -272,7 +272,7 @@ top: 30px;
 }
   
 .img-project {
-    height: 470px;
+    height: 650px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -525,7 +525,6 @@ font-weight: bold;
  .boldYellow, a{
    color: #E9B44C;
    font-weight: bold;
-   color: #24252A;
  }
  
  .container-header {
