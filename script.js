@@ -17,7 +17,7 @@ let tabDesc = ['In group of four we were ordered to create a campaign around nig
 
 'Creation of a special issue of the review Tamago (fictional) on NewBalance in Kyoto. I wanted to create a pretty pop ambiance with bright colors combined with visuals that add gaiety.',
 
-' Creation of a visual/ t-shirt based on a bmw 2002 turbo. For this project I wanted to highlight a car a little less known to the general public I think.']
+' Creation of a visual/ t-shirt based on a bmw 2002 turbo. For this project I wanted to highlight a car a little less known to the general public.']
 let tabDate = ['01/2022', '12/2021', '2022', '2022','2022', '2022', '2022', '03/2021', 'O3/2022', 'O3/2022', ]
 
 // -DESIGN-
