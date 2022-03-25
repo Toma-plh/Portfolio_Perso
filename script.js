@@ -91,7 +91,7 @@ document.querySelectorAll('.img').forEach(item => {
             //media screen pour video 
             var mq = window.matchMedia('all and (min-width: 2001px)');
             if(mq.matches){
-                document.querySelector('.video-project').style.width = '900px'
+                document.querySelector('.video-project').style.width = '1200px'
             }else{
                 document.querySelector('.video-project').style.width = '900px'
             }
