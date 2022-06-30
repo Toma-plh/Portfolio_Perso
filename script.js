@@ -1,6 +1,6 @@
 //mettre dans l'ordre des images
-let tabTitleHeader = ['Nuit-au-musée.jpg', 'Tee-shirt-n°1.jpg', 'Tee-shirt-n°2.jpg', 'GrandSlang.jpg','futur-projects.jpg', 'La-Ferme-Dubois.mp4', '@Eslam.mp4', 'Torikara-san.mp4', 'Editorial.jpg', 'Tee-shirt-n°3.jpg']
-let tabTitle = ['Museum Campaign', 'Green tee-shirt composition', 'Black tee-shirt composition', 'GrandSlang', '',  'UI / UX / Development', 'UI / UX / Prototype', 'UI / UX / Development', 'Editorial', '2002Tubro.jpg']
+let tabTitleHeader = ['Nuit-au-musée.jpg', 'Tee-shirt-n°1.jpg', 'Tee-shirt-n°2.jpg', 'GrandSlang.jpg','futur-projects.jpg', 'La-Ferme-Dubois.mp4', '@Eslam.mp4', 'Torikara-san.mp4', 'Editorial.jpg', 'Tee-shirt-n°3.jpg','Conseil-confort-énergie.mp4']
+let tabTitle = ['Museum Campaign', 'Green tee-shirt composition', 'Black tee-shirt composition', 'GrandSlang', '',  'UI / UX / Development', 'UI / UX / Prototype', 'UI / UX / Development', 'Editorial', '2002Tubro.jpg', 'UI / UX / Development']
 let tabDesc = ['In group of four we were ordered to create a campaign around nights at the museum in Dijon. Our objectif was to create a newsletter, an interactive experience and a web banner. '
 
 , ' "no description" '
@@ -17,8 +17,10 @@ let tabDesc = ['In group of four we were ordered to create a campaign around nig
 
 'Creation of a special issue of the review Tamago (fictional) on NewBalance in Kyoto. I wanted to create a pretty pop ambiance with bright colors combined with visuals that add gaiety.',
 
-' Creation of a visual/ t-shirt based on a bmw 2002 turbo. For this project I wanted to highlight a car a little less known to the general public.']
-let tabDate = ['01/2022', '12/2021', '2022', '2022','2022', '2022', '2022', '03/2021', 'O3/2022', 'O3/2022', ]
+' Creation of a visual/ t-shirt based on a bmw 2002 turbo. For this project I wanted to highlight a car a little less known to the general public.',
+
+'My mate Nicolas Goyer and I created from scratch Conseil Confort Energie’s website. During the first appointment with the client we understood that he wanted something big, impacting. Therefore we created a 3D house animation, showcasing its most popular products. The design process completed we decided to develop on Webflow.We learned a lot creating this website, both the technical (3D, lottie, Webflow …) and human (client relationship, organization, administrative ...) aspects. (not 100% finished, waiting for the client approval & contents)',]
+let tabDate = ['01/2022', '12/2021', '2022', '2022','2022', '2022', '2022', '03/2021', 'O3/2022', 'O3/2022', '06/2022' ]
 
 // -DESIGN-
 let tabImgP8 = ['img/Mockups/cover-mockup-bleu.jpg', 'img/Mockups/mock-up-16-17.jpg','img/Mockups/mockup-18-19.jpg', 'img/Mockups/mockup-22-23.jpg', 'img/Mockups/mockup-cover-rose.jpg', 'img/Mockups/mockup20-21.jpg' ]
@@ -77,7 +79,7 @@ document.querySelectorAll('.img').forEach(item => {
         document.querySelector('.section-description').style.display= 'block'
 
         //si video = un ID dis si dessous alors on lance la video SINON (else) on lance l'image
-        if ((item.id == '4') || (item.id == '5') || (item.id == '6') || (item.id == '7')) {
+        if ((item.id == '4') || (item.id == '5') || (item.id == '6') || (item.id == '7') || (item.id == '10')) {
 
             console.log(item)
             document.querySelector('.video-project').style.display='block'
@@ -167,6 +169,9 @@ document.querySelectorAll('.img').forEach(item => {
          }
         else if (clickedElementId == '9') {
             arraySelect = tabImgP9
+         }
+        else if (clickedElementId == '10') {
+            arraySelect = tabImgP10
          }
 
 
