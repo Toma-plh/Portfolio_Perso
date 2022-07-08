@@ -329,6 +329,8 @@ top: 30px;
 
 @media all and (max-width: 768px){
 
+  
+
   .section-project{
     display: none;
   }
@@ -375,6 +377,11 @@ font-weight: bold;
   margin-left: 47px;
   margin-top: 65px;
 }
+
+.disclaimer {
+    margin-left: 47px;
+    width: 80%;
+  }
 
 .info{
   font-weight: bold;
@@ -464,8 +471,11 @@ font-weight: bold;
   width: 90vw;
 }
 
-#resize-t-shirt{
+#resize-t-green{
   height: 350px;
+}
+#resize-t-shirt{
+  height: 505px;
 }
 
 .explication-project{
