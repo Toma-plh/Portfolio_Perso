@@ -1,6 +1,6 @@
 //mettre dans l'ordre des images
-let tabTitleHeader = ['Nuit-au-musée.jpg', 'Tee-shirt-n°1.jpg', 'Tee-shirt-n°2.jpg', 'GrandSlang.jpg','futur-projects.jpg', 'La-Ferme-Dubois.mp4', '@Eslam.mp4', 'Torikara-san.mp4', 'Editorial.jpg', 'Tee-shirt-n°3.jpg','Conseil-confort-énergie.mp4']
-let tabTitle = ['Museum Campaign', 'Green tee-shirt composition', 'Black tee-shirt composition', 'GrandSlang', '',  'UI / UX / Development', 'UI / UX / Prototype', 'UI / UX / Development', 'Editorial', '2002Tubro.jpg', 'UI / UX / Development']
+let tabTitleHeader = ['Nuit-au-musée.jpg', 'Tee-shirt-n°1.jpg', 'Tee-shirt-n°2.jpg', 'GrandSlang.jpg','futur-projects.jpg', 'La-Ferme-Dubois.mp4', '@Eslam.mp4', 'Nova lingua.mp4', 'Editorial.jpg', 'Tee-shirt-n°3.jpg','Conseil-confort-énergie.mp4']
+let tabTitle = ['Museum Campaign', 'Green tee-shirt composition', 'Black tee-shirt composition', 'GrandSlang', '',  'UI / UX / Development', 'UI / UX / Prototype', 'Motion Design', 'Editorial', '2002Tubro.jpg', 'UI / UX / Development']
 let tabDesc = ['In group of four we were ordered to create a campaign around nights at the museum in Dijon. Our objectif was to create a newsletter, an interactive experience and a web banner. '
 
 , ' "no description" '
@@ -13,14 +13,13 @@ let tabDesc = ['In group of four we were ordered to create a campaign around nig
 
 , '_eslam.__ is a character designer on Instagram and Youtube. I liked his work and decide to make a website based on his instagram page.'
 
-,'In group of two we were ordered to fully create a website for a japanese fast-foods in Dijon. The challenge here was that we only got 5 days to design & develop the website. In this project I was mainly focused on the UI & UX of the website. The client here was pretty cool, gave us carte blanche but requested few things like having a google map iframe, picture of every meals etc.',
-
+,'In group of three we were ordered to fully create a motion design add to promote the Nova Lingua platform. We used After-effect and illustrator for the project',
 'Creation of a special issue of the review Tamago (fictional) on NewBalance in Kyoto. I wanted to create a pretty pop ambiance with bright colors combined with visuals that add gaiety.',
 
 ' Creation of a visual/ t-shirt based on a bmw 2002 turbo. For this project I wanted to highlight a car a little less known to the general public.',
 
 'My mate Nicolas Goyer and I created from scratch Conseil Confort Energie’s website. During the first appointment with the client we understood that he wanted something big, impacting. Therefore we created a 3D house animation, showcasing its most popular products. The design process completed we decided to develop on Webflow.We learned a lot creating this website, both the technical (3D, lottie, Webflow …) and human (client relationship, organization, administrative ...) aspects. (not 100% finished, waiting for the client approval & contents)',]
-let tabDate = ['01/2022', '12/2021', '2022', '2022','2022', '2022', '2022', '03/2021', 'O3/2022', 'O3/2022', '06/2022' ]
+let tabDate = ['01/2022', '12/2021', '2022', '2022','2022', '2022', '2022', '2022', 'O3/2022', 'O3/2022', '06/2022' ]
 
 // -DESIGN-
 let tabImgP8 = ['img/Mockups/cover-mockup-bleu.jpg', 'img/Mockups/mock-up-16-17.jpg','img/Mockups/mockup-18-19.jpg', 'img/Mockups/mockup-22-23.jpg', 'img/Mockups/mockup-cover-rose.jpg', 'img/Mockups/mockup20-21.jpg' ]
