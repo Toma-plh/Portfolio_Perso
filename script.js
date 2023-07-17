@@ -1,9 +1,9 @@
 //mettre dans l'ordre des images
-let tabTitleHeader = ['Nuit-au-musée.jpg', 'Tee-shirt-n°1.jpg', 'Tee-shirt-n°2.jpg', 'GrandSlang.jpg','futur-projects.jpg', 'La-Ferme-Dubois.mp4', '@Eslam.mp4', 'Nova lingua.mp4', 'Editorial.jpg', 'Tee-shirt-n°3.jpg','Conseil-confort-énergie.mp4']
-let tabTitle = ['Museum Campaign', 'Green tee-shirt composition', 'Black tee-shirt composition', 'GrandSlang', '',  'UI / UX / Development', 'UI / UX / Prototype', 'Motion Design', 'Editorial', '2002Tubro.jpg', 'UI / UX / Development']
+let tabTitleHeader = ['Nuit-au-musée.jpg', 'Gyptis.jpg', 'Tee-shirt-n°2.jpg', 'GrandSlang.jpg','futur-projects.jpg', 'La-Ferme-Dubois.mp4', 'Le Masami.jpg', 'Nova lingua.mp4', 'Editorial.jpg', 'Tee-shirt-n°3.jpg','Conseil-confort-énergie.mp4']
+let tabTitle = ['Museum Campaign', 'Projet Gyptis', 'Black tee-shirt composition', 'GrandSlang', '',  'UI / UX / Development', 'Le Masami', 'Motion Design', 'Editorial', '2002Tubro.jpg', 'UI / UX / Development']
 let tabDesc = ['In group of four we were ordered to create a campaign around nights at the museum in Dijon. Our objectif was to create a newsletter, an interactive experience and a web banner. '
 
-, ' "no description" '
+, 'Création du visuel pour une capsule été de 50 pièces. Les thèmes abordés sont "amitié, le soleil, Marseille, éco-responsable et pastel". La marque reviendra l été prochain pour une nouvelle capsule !'
 
 , 'Project based on "Cold War Modern: Design 1945-1970" book.'
 
@@ -11,28 +11,27 @@ let tabDesc = ['In group of four we were ordered to create a campaign around nig
 
 ,'currently working on other projects','La Ferme Dubois is a farm that cultivate hemp. The goal was to create a product based on hemp and blueberrys. We chose to make cookies. My part was to create the website/design.'
 
-, '_eslam.__ is a character designer on Instagram and Youtube. I liked his work and decide to make a website based on his instagram page.'
-
+, 'Le client avait exprimé le besoin de revoir entièrement le site de son restaurant, étant donné que celui en place n était plus mis à jour et que la complexité du back-end posait problème.L objectif de cette refonte est de simplifier l expérience utilisateur (UX), d améliorer la clarté du processus de réservation ainsi que faciliter les modifications.',
 ,'In group of three we were ordered to fully create a motion design add to promote the Nova Lingua platform. We used After-effect and illustrator for the project',
 'Creation of a special issue of the review Tamago (fictional) on NewBalance in Kyoto. I wanted to create a pretty pop ambiance with bright colors combined with visuals that add gaiety.',
 
 ' Creation of a visual/ t-shirt based on a bmw 2002 turbo. For this project I wanted to highlight a car a little less known to the general public.',
 
 'My mate Nicolas Goyer and I created from scratch Conseil Confort Energie’s website. During the first appointment with the client we understood that he wanted something big, impacting. Therefore we created a 3D house animation, showcasing its most popular products. The design process completed we decided to develop on Webflow.We learned a lot creating this website, both the technical (3D, lottie, Webflow …) and human (client relationship, organization, administrative ...) aspects. (not 100% finished, waiting for the client approval & contents)',]
-let tabDate = ['01/2022', '12/2021', '2022', '2022','2022', '2022', '2022', '2022', 'O3/2022', 'O3/2022', '06/2022' ]
+let tabDate = ['01/2022', '04/2022', '2022', '2022','2022', '2022', '06/2023', '2022', 'O3/2022', 'O3/2022', '06/2022' ]
 
 // -DESIGN-
 let tabImgP8 = ['img/Mockups/cover-mockup-bleu.jpg', 'img/Mockups/mock-up-16-17.jpg','img/Mockups/mockup-18-19.jpg', 'img/Mockups/mockup-22-23.jpg', 'img/Mockups/mockup-cover-rose.jpg', 'img/Mockups/mockup20-21.jpg' ]
 let tabImgP9 = ['img/tee-shirt-bmw/vintage-tee-back-noir.jpg', 'img/tee-shirt-bmw/vintage-tee-back-blanc.jpg', 'img/tee-shirt-bmw/bmw2002-affiche.jpg' ]
 let tabImgP0 = ['img/webmarketing/webMarketingNews.jpg', 'img/webmarketing/webMarketingReal.jpg', 'img/webmarketing/webMarketingWeb.jpg'] 
-let tabImgP1 = ["img/tee-shirt-Vert/appareil-photo-front-min.jpg", 'img/tee-shirt-Vert/appareil-photo-back-min.jpg', 'img/tee-shirt-Vert/appareil-photo-back.jpg']
+let tabImgP1 = ["img/tee-shirt-Vert/Projet Gyptis2.jpg", 'img/tee-shirt-Vert/Projet Gyptis3.jpg','img/tee-shirt-Vert/front.jpg','img/tee-shirt-Vert/test 6.jpg','img/tee-shirt-Vert/Projet Gyptis4.jpg']
 let tabImgP2 = ['img/tee-shirt-Black/tee-shirt-2faces-back-min.jpg', 'img/tee-shirt-Black/2faces-front-min.jpg' ]
 let tabImgP3 = ['img/affiche grandslang/poster-2.jpg','img/affiche grandslang/grandslang-diss.jpg','img/affiche grandslang/granslang-mockup.jpg']
 let tabImgP4 = [] 
 // -WEBSITES-
 
 let tabImgP5 = [] //video de laFermeDubois
-let tabImgP6 = []//video de torikara-san
+let tabImgP6 = ['img/Site-Masami/Masami 1.jpg', 'img/Site-Masami/Masami couleurs.jpg', 'img/Site-Masami/Masami font.jpg', 'img/Site-Masami/Masami moodboard.jpg','img/Site-Masami/Masami page.jpg']//masami
 let tabImgP7 = []
 // -OTHERS-
 // let tabImgP8 = []
@@ -78,7 +77,7 @@ document.querySelectorAll('.img').forEach(item => {
         document.querySelector('.section-description').style.display= 'block'
 
         //si video = un ID dis si dessous alors on lance la video SINON (else) on lance l'image
-        if ((item.id == '4') || (item.id == '5') || (item.id == '6') || (item.id == '7') || (item.id == '10')) {
+        if ((item.id == '4') || (item.id == '5') ||  (item.id == '7') || (item.id == '10')) {
 
             console.log(item)
             document.querySelector('.video-project').style.display='block'
